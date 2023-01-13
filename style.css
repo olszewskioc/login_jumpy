@@ -1,0 +1,87 @@
+body {
+    background: #2D2D2D;
+    display: flex;
+
+    
+}
+
+aside {
+    margin: 42px 0 0 55px ;
+    width: 35%;
+}
+
+section {
+    width: 55%;
+    margin-top: 108px;
+}
+
+#jumpy {
+    margin-left: 90px;
+}
+
+section header h4 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 27px;
+    margin-left: 80px;
+}
+
+#inputs {
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+.input_field {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #181818;
+    border-radius: 10px;
+    padding: 11px 13px;
+    margin: 8px 0px 20px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 48%;
+}
+
+input[type="button"] {
+    background: #0C70F2;
+    border: 0;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 36px;
+    gap: 8px;
+    width: 51%;
+
+    /* Estilização da fonte */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+input[type="button"]:hover {
+    background: #044aa5;
+}
+
+.error {
+    display: flex;
+    justify-content: space-around;
+    color: #E73550;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}

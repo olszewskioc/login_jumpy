@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Jumpy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside>
+        <img src="images/logo.svg" alt="">
+    </aside>
+    
+
+    <section>
+        <header>
+            <img id="jumpy" src="images/jumpy.svg" alt="">
+            <h4>Bem vindo ao Jumpy!</h4>
+        </header>
+
+        <div id="inputs">
+            <label for="name">Nome Completo: <br></label>
+            <input type="text" name="name" id="name" class="input_field" placeholder="Nome Completo" required>
+            <small class="error" id="nameError"></small><br>
+            <label for="email">Email: <br></label>
+            <input type="email" name="email" id="email" class="input_field" placeholder="usuario@email.com" required>
+            <small class="error" id="emailError"></small><br>
+            <label for="phone">Telefone: <br></label>
+            <input type="tel" name="phone" id="phone" class="input_field" placeholder="(99) 9 9999-9999" required>
+            <small class="error" id="phoneError"></small><br>
+            <label for="cpf">CPF: <br></label>
+            <input type="text" name="cpf" id="cpf" class="input_field" placeholder="000.000.000-00" required>
+            <small class="error" id="cpfError"></small><br>
+            <label for="password">Senha: <br></label>
+            <input type="password" name="password" id="password" class="input_field" placeholder="*********" required>
+            <small class="error" id="passwordError"></small><br>
+            <input type="button" onclick="cadastro.validation()" value="Cadastrar"><br>
+            <small class="error" id="buttonError"></small>
+        </div>
+
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
